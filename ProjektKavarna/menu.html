@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - Cafe with Nessie</title>
+<link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+<header>
+  <a href="Hlavni.html">
+    <h1>Cafe with Nessie </h1>
+  </a>
+</header>
+
+<nav> 
+  <a href="menu.html">Menu</a>
+  <a href="history.html">History</a>
+  <a href="kontakt.html">Contact</a>
+</nav>
+
+<main class="container">
+
+  <section class="left">
+    <h2>Categories</h2>
+    <button onclick="showDrinks()">Drinks</button>
+    <button onclick="showDesserts()">Desserts</button>
+
+  </section>
+
+  <section class="center">
+    <h2>Products</h2>
+    <div id="products"></div>
+  </section>
+
+  <section class="right">
+    <h2>Cart</h2>
+    <div id="cart"></div>
+  </section>
+
+</main>
+
+<script src="menu.js" defer></script>
+
+
+</body>
+</html>
