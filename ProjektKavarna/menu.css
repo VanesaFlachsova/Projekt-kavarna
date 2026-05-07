@@ -3,29 +3,31 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  text-decoration: none;
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #aec4b3;
 }
 
 
 header {
-  background: url("https://img.magnific.com/premium-photo/jasna-lake-slovenia_548832-23573.jpg") center/cover no-repeat;
+  background: url("https://wallpaperaccess.com/full/2103215.jpg") center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 160px 10px;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  color: rgb(228, 223, 223);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 
 nav {
   display: flex;
   justify-content:center;
-  background-color: #333333ab;
+  background-color: #021302c4;
 }
 
 nav a {
@@ -35,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #344734;
 }
 
 
@@ -52,6 +54,8 @@ nav a:hover {
   flex: 1;
   min-width: 200px;
   padding: 10px;
+  background: rgb(224, 235, 226);
+  border-radius: 8px;
 }
 
 .left button {
@@ -60,9 +64,8 @@ nav a:hover {
   margin-bottom: 10px;
   padding: 10px;
   cursor: pointer;
+  
 }
-
-
 
 .center {
   flex: 2;
@@ -71,7 +74,7 @@ nav a:hover {
 }
 
 .product {
-  background: white;
+  background: rgb(224, 235, 226);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -79,18 +82,19 @@ nav a:hover {
 
 .product button {
   margin-top: 5px;
+  cursor: pointer;
 }
 
 
 .cart-item {
-  background: white;
+  background:  rgb(224, 235, 225);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
 .product-box {
-  background: white;
+  background:  rgb(224, 235, 226);
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -117,7 +121,7 @@ nav a:hover {
   width: 100%;
   padding: 12px;
   margin-top: 15px;
-  background: green;
+  background: rgb(11, 105, 35);
   color: white;
   border: none;
   cursor: pointer;
@@ -150,9 +154,10 @@ nav a:hover {
   min-width: 20px;
   text-align: center;
 }
+
 .qty-controls .remove {
   margin-left: auto;
-  background: crimson;
+  background: rgb(143, 12, 38)
 }
 
 
