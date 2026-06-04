@@ -12,8 +12,8 @@ const menuData = [
     { id: 4, typ: Category.Drink, nazev: "Nessie Chill Time", cena: 8.5, image: "https://img.freepik.com/premium-photo/hot-cup-tea-wooden-table_661047-13736.jpg" },
     { id: 5, typ: Category.Dessert, nazev: "Strawberry Secret", cena: 9.5, image: "https://thf.bing.com/th/id/OIP.x9v8SxrC6heE0o4v5Vg4dQHaE7?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3" },
     { id: 6, typ: Category.Dessert, nazev: "Golden Croissant", cena: 6.5, image: "https://img.magnific.com/premium-photo/butter-croissant-classic-french-pastry-favorite_1106454-19101.jpg" },
-    { id: 7, typ: Category.Dessert, nazev: "Berry lake Dream Cake", cena: 13.5, image: "https://i.pinimg.com/originals/ce/80/21/ce80210dd4df9279120c0465464366da.jpg" },
-    { id: 8, typ: Category.Dessert, nazev: "Nessie's Ice Cream Treasure", cena: 9.5, image: "https://d1ralsognjng37.cloudfront.net/25c4e9dc-ba1d-4a1a-92d0-ba70d377ac6e.jpeg" }
+    { id: 7, typ: Category.Dessert, nazev: "Berry lake Dream Cake", cena: 13.5, image: "https://www.beyondthebayoublog.com/wp-content/uploads/2024/02/Overview-How-to-make-Fruit-Cake-1024x683.png" },
+    { id: 8, typ: Category.Dessert, nazev: "Nessie's Ice Cream Treasure", cena: 9.5, image: "https://thumbs.dreamstime.com/b/beautiful-ice-cream-glass-closeup-42036406.jpg" }
 ];
 // trida
 class Item {

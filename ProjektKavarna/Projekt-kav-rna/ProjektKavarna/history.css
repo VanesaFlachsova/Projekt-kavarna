@@ -29,6 +29,7 @@ nav {
   background-color: #021302c4;
 }
 
+
 nav a {
   color: white;
   padding:15px;
@@ -39,18 +40,3 @@ nav a:hover {
   background-color: #555;
 }
 
-.history {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  line-height: 1.8;
-}
-
-.history h2 {
-  margin-bottom: 15px;
-  color: #0d3b26;
-}
-
-.history p {
-  margin-bottom: 15px;
-}

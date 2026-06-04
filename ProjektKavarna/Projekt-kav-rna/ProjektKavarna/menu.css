@@ -1,48 +1,48 @@
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   text-decoration: none;
-}
+} /* zakladní stylovani pro vsechny prvky */
 
-body {
+body { /* celkovy telo stranky */
   background-color: #aec4b3;
 }
 
 
-header {
-  background: url("https://wallpaperaccess.com/full/2103215.jpg") center/cover no-repeat;
+header { /*  hlavicka stranky */
+  background: url("https://wallpaperaccess.com/full/2103215.jpg") center/cover no-repeat; /*pozadi, zarovnani, velikost,opakovani*/
   color: white;
   text-align: center;
   padding: 160px 10px;
 }
 
-header h1 {
+header h1 { /*  hlavni nadpis v hlavicce */
   font-size: 3.5rem;
   color: rgb(228, 223, 223);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-nav {
+nav { /*  navigacni menu */
   display: flex;
   justify-content:center;
   background-color: #021302c4;
 }
 
-nav a {
+nav a { /*  odkazy v navigaci */
   color: white;
   padding: 15px;
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover { /*  odkazy v navigaci pri najeti mysi */
   background-color: #344734;
 }
 
 
 
-.container {
+.container { /*  hlavni kontejner s obsahem */
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
@@ -50,7 +50,7 @@ nav a:hover {
 
 
 
-.left {
+.left { /*  levy sloupec s kategoriemi */
   flex: 1;
   min-width: 200px;
   padding: 10px;
@@ -58,7 +58,7 @@ nav a:hover {
   border-radius: 8px;
 }
 
-.left button {
+.left button { /*  tlacitka v levem sloupci */
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -67,62 +67,62 @@ nav a:hover {
   
 }
 
-.center {
+.center { /* stredni sloupec s produkty */
   flex: 2;
   min-width: 300px;
   padding: 10px;
 }
 
-.product {
+.product { /* jednotlive produkty */
   background: rgb(224, 235, 226);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
-.product button {
+.product button { /*  tlacitka produktu */
   margin-top: 5px;
   cursor: pointer;
 }
-#products {
+#products { /* kontejner s produkty,zajistuje spravne rozlozeni */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
 }
 
 
-.cart-item {
+.cart-item { /* jednotlive polozky v kosiku */
   background:  rgb(224, 235, 225);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
-.product-box {
+.product-box { /*  box pro zobrazeni produktu v kosiku */
   background:  rgb(224, 235, 226);
   padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
 
-.product-img {
+.product-img { /*  obrazek produktu v kosiku */
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.controls {
+.controls { /*  ovladani pro zmenu mnozstvi a odstraneni produktu v kosiku */
   margin-top: 5px;
 }
 
-.controls button {
+.controls button { /*tlacitka zmena mnozstvi*/
   padding: 5px 10px;
   margin: 2px;
   cursor: pointer;
 }
 
-.checkout-btn {
+.checkout-btn { /* dokonceni objednavky */
   width: 100%;
   padding: 12px;
   margin-top: 15px;
@@ -134,19 +134,19 @@ nav a:hover {
   border-radius: 8px;
 }
 
-.right {
+.right { /* sloupec kosik */
   flex: 1;
   min-width: 250px;
   padding: 10px;
 }
-.qty-controls {
+.qty-controls { /* ovladani mnozstvi */
   display: flex;
   align-items: center;
   gap: 8px;
   margin: 8px 0;
 }
 
-.qty-controls button {
+.qty-controls button { /*kursor a tlacitka pro zmenu mnozstvi */
   padding: 5px 10px;
   cursor: pointer;
   border: none;
@@ -155,18 +155,18 @@ nav a:hover {
   border-radius: 5px;
 }
 
-.qty-controls span {
+.qty-controls span { /*zobrazeni mnozstvi */
   min-width: 20px;
   text-align: center;
 }
 
-.qty-controls .remove {
+.qty-controls .remove { /*tlacitko x*/
   margin-left: auto;
   background: rgb(143, 12, 38)
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*pro mobilni zarizeni*/
   .container {
     flex-direction: column;
   }

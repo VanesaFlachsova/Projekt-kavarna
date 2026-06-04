@@ -10,6 +10,7 @@ body {
   background-color: #aec4b3;
 }
 
+
 header {
   background: url("https://wallpaperaccess.com/full/2103215.jpg") center/cover no-repeat;
   color: white;
@@ -23,6 +24,7 @@ header h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+
 nav {
   display: flex;
   justify-content:center;
@@ -31,26 +33,10 @@ nav {
 
 nav a {
   color: white;
-  padding:15px;
-  text-decoration:none;
+  padding: 15px;
+  text-decoration: none;
 }
 
 nav a:hover {
   background-color: #555;
-}
-
-.history {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  line-height: 1.8;
-}
-
-.history h2 {
-  margin-bottom: 15px;
-  color: #0d3b26;
-}
-
-.history p {
-  margin-bottom: 15px;
 }
