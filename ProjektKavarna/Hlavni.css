@@ -24,9 +24,10 @@ header h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+
 nav {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   background-color: #021302c4;
 }
 
@@ -37,5 +38,116 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #344734;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.welcome {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  background: rgb(224, 235, 226);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.welcome h2 {
+  color: #0d3b26;
+  margin-bottom: 15px;
+}
+
+.welcome p {
+  line-height: 1.6;
+}
+
+.events {
+  margin: 40px 0;
+}
+
+.events h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d3b26;
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.event-card {
+  flex: 1;
+  min-width: 220px;
+  background: rgb(224, 235, 226);
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.event-card h3 {
+  margin-bottom: 10px;
+  color: #0d3b26;
+}
+
+.facts {
+  margin: 40px 0;
+}
+
+.facts h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d3b26;
+}
+
+.fact-box {
+  background: rgb(224, 235, 226);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.fact-box h3 {
+  margin-bottom: 10px;
+  color: #0d3b26;
+}
+
+.gallery {
+  margin: 40px 0;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d3b26;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: rgb(224, 235, 226);
+}
+
+@media (max-width: 768px) {
+
+  .gallery-grid {
+  grid-template-columns: 1fr;
+  }
+
+  .event-container {
+  flex-direction: column;
+  }
 }
