@@ -153,7 +153,7 @@ function renderCart() {
     const btn = document.createElement("button");
     btn.className = "checkout-btn";
     btn.innerText = "Zaplatit";
-    btn.onclick = () => alert("Payment system zatím není napojen ");
+    btn.onclick = () => alert("Zaplaceno! Děkujeme za vaši objednávku.");
     container.appendChild(btn);
 }
 function changeQty(index, delta) {

@@ -39,4 +39,46 @@ nav a {
 
 nav a:hover {
   background-color: #555;
+} 
+
+.contacts {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.contacts h2 {
+  text-align: center;
+  color: #0d3b26;
+  margin-bottom: 25px;
+}
+
+.contact-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-box {
+  flex: 1;
+  min-width: 250px;
+  background: rgb(224, 235, 226);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-box h3 {
+  color: #0d3b26;
+  margin-bottom: 15px;
+}
+
+.contact-box p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+  }
 }
